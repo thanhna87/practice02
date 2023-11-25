@@ -16,7 +16,7 @@ import { DemoPipeCustomComponent } from './demo-pipe-custom/demo-pipe-custom.com
     DemoPropertyBindingComponent, 
     DemoClassBindingComponent, 
     DemoStyleBindlingComponent, 
-    DemoEventBindingComponent, 
+    DemoEventBindingComponent,
     DemoPipeCustomComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
