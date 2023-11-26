@@ -6,6 +6,7 @@ import { DemoClassBindingComponent } from './demo-class-binding/demo-class-bindi
 import { DemoStyleBindlingComponent } from './demo-style-bindling/demo-style-bindling.component';
 import { DemoEventBindingComponent } from './demo-event-binding/demo-event-binding.component';
 import { DemoPipeCustomComponent } from './demo-pipe-custom/demo-pipe-custom.component';
+import { DemoBindingAllComponent } from './demo-binding-all/demo-binding-all.component';
 
 
 @Component({
@@ -17,7 +18,8 @@ import { DemoPipeCustomComponent } from './demo-pipe-custom/demo-pipe-custom.com
     DemoClassBindingComponent, 
     DemoStyleBindlingComponent, 
     DemoEventBindingComponent,
-    DemoPipeCustomComponent],
+    DemoPipeCustomComponent,
+    DemoBindingAllComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
