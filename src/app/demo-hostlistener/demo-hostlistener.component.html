@@ -1,0 +1,16 @@
+<p>demo-hostlistener works!</p>
+<div appDirectiveDemoHostListener>Click to this area</div>
+<button appDirectiveDemoHostListener>Click here</button>
+<p></p>
+<button [bindFromView] = "'change to this value'" appDirectiveDemoHostListener>Click to log</button>
+<p></p>
+<p>Input color here
+<input>
+</p>
+<p [style.color]="bcolor">TEXT TEST</p>
+<button>Submit</button>
+<div>
+    <input type="radio" name="colors" (click)="color='lightgreen'">Green
+    <input type="radio" name="colors" (click)="color='yellow'">Yellow
+    <input type="radio" name="colors" (click)="color='cyan'">Cyan
+  </div>
